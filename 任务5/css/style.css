@@ -1,0 +1,92 @@
+body,html,ul,li,article,h1,h2{margin: 0;padding: 0;}
+body{background: #ddd;}
+ul{list-style: none;}
+input,textarea,select{outline: none;}
+a{text-decoration: none;color: #fff;}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0;} 
+.clearfix{zoom:1} 
+
+.container{/* width: 1200px; */margin:20px 440px 20px 20px;}
+.margin_r1{margin-right: 15px;}
+.margin_r2{margin-right: 25px;}
+.margin_r3{margin-right: 35px;}
+.margin_t1{margin-top: 10px;}
+.margin_t2{margin-top: 18px;}
+.margin_t3{margin-top: 30px;}
+.bold{font-weight: bold;}
+/***************HEADER****************/
+header{background:rgba(0,0,0,0.8);}
+header .wrapper{margin:0 20px;}
+header .header_l{float: left;}
+header .header_r{float: right;height: 100px;line-height: 100px;}
+header .header_l img{width: auto;height: 100px;}
+header .header_r ul li{float: left;}
+header .header_r ul li a{display: inline-block;font-weight:bold;}
+/***************CONTENT****************/
+article{background:#fff;padding: 40px 30px;border: 1px solid rgba(0,0,0,0.5); -moz-box-shadow:5px 5px 5px 5px #ddd;
+       -webkit-box-shadow:5px 5px 5px 5px #ddd;box-shadow:5px 5px 5px 5px #ddd;min-width:190px;}
+article a{color:#a71e2b;}
+article h1{font-size: 28px;margin-bottom: 25px;}
+article h2{font-size: 24px;margin-bottom: 20px;}
+article .description{font-size: 18px;margin-bottom: 20px;}
+article img{width: 50%;height: auto;}
+article p:not(.description){line-height: 1.8em;}
+
+article:nth-child(2) a{color: #000;font-weight:bold;}
+
+article.item_3 li{width:190px;height:190px;float:left;border:1px solid #ddd;text-align: center;margin:20px 10px; }
+article.item_3 li span{font-size: 14px;padding: 10px 0 8px;display: inline-block;}
+article.item_3 li i{display: inline-block;width:150px;height:150px;background: url(../images/team3.jpg) bottom center no-repeat;}
+
+article.item_4 ol li{margin-bottom: 8px;font-weight:bold;}
+article.item_4 table{border:1px solid #ddd;width: 100%;border-collapse:collapse;   /* 边框重叠 */  }
+article.item_4 table caption{font-size:1.2em;font-weight:bold;padding-bottom: 5px;}
+article.item_4 table th{border:1px solid #ddd;background: #000;color:#fff;text-align: left;padding: 8px;}
+article.item_4 table td{border:1px solid #ddd;padding: 8px;}
+article.item_4 table tr:last-child td{background: #999;border: 0;}
+
+/***************ASIDE****************/
+aside{width: 400px;float: right;margin-right: 20px;}
+aside .content{background:#fff;padding: 30px 18px 10px 18px;border: 1px solid rgba(0,0,0,0.5); -moz-box-shadow:5px 5px 5px 5px #ddd;
+       -webkit-box-shadow:5px 5px 5px 5px #ddd;box-shadow:5px 5px 5px 5px #ddd;}
+aside h2{font-size: 20px;border-left:2px solid #999;padding:10px 0 10px 13px;}
+
+aside form>label{display: block;margin: 10px 0 0 0;}
+/*footer form label input.radio,footer form label input.checkbox{margin-top: 8px;} */
+aside form label span:nth-child(1),footer form label input,footer form label select{vertical-align: middle;}
+.per_des span,.per_des textarea{vertical-align: top;}
+aside form>label>span:first-child{/*float: left;*/font-size:14px;display:inline-block;width: 30%;text-align: right;padding:5px 14px 5px 0;color: rgba(0,0,0,0.7);}
+aside form label input{font-size: 16px;padding:4px;}
+aside form label textarea{width: 180px;height: 100px;font-size: 18px;padding:4px;}
+aside form label select{padding:2px;color:rgba(0,0,0,0.5);font-size: 14px;}
+aside form label input[type=radio] +label,aside form label input[type=checkbox] +label{color:rgba(0,0,0,0.5);font-size: 12px;} 
+aside form input.submit{width: 100%;background: blue;border: 0;height: 36px;color: #fff;font-size: 18px;border-radius: 6px;margin-top: 25px;}
+aside form>label:nth-child(1),
+aside form>label:nth-child(3){position: relative;margin-bottom: 35px;}
+aside form>label:nth-child(1) input+span,
+aside form>label:nth-child(3) input+span{position: absolute;top:125%;left:40%;color: rgba(0,0,0,0.5);font-size: 14px;margin-bottom: 10px;}
+
+
+/***************FOOTER****************/
+footer{padding:40px 30px;height: 16px;background: rgba(0,0,0,0.9);text-align:center;color:#fff;font-size: 16px;font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
